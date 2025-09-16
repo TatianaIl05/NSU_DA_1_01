@@ -6,25 +6,25 @@
    git clone https://github.com/TatianaIl05/NSU_DA_1_01_Ilinykh.git
    ```
 2. Перейдите в  директорию проекта:
-   '''
+   ```
    cd NSU_DA_1_01_Ilinykh
-   '''
+   ```
 3. Установите зависимости:
-  '''
+   ```
    pip install -r requirements.txt
-   '''
+   ```
 4. Установите библиотеку Pandas (если не установлена):
-   '''
+   ```
    pip install pandas
-   '''
+   ```
 5. Установите библиотеку Scikit-Learn (если не установлена):
-   '''
+   ```
     pip install scikit-learn
-    '''
+    ```
 6. Запустите программу:
-    '''
+    `
     python main.py
-    '''
+    `
 
 После программа напечатает основную информацию о загруженном датасете
 
