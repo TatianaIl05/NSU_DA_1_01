@@ -1,6 +1,6 @@
-from sklearn.datasets import load_iris
-import pandas as pd
 import sys
+import pandas as pd
+from sklearn.datasets import load_iris
 
 def load_dataset():
     """
@@ -42,3 +42,4 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Произошла ошибка: {e}")
         sys.exit(1)
+
