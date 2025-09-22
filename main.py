@@ -47,16 +47,16 @@ def save_to_file(analytics, filename):
     with open(filename, "w", encoding='utf-8') as f:
         f.write("Основная информация о датафрейме:\n")
 
-        f.write("Первые пять элементов датафрейма:\n")
+        f.write("\nПервые пять элементов датафрейма:\n")
         f.write(str(analytics["head"]) + "\n")
 
-        f.write("Информация о типах и пропусках:\n")
+        f.write("\nИнформация о типах и пропусках:\n")
         f.write(str(analytics["info"]) + "\n")
 
-        f.write("Статистические данные:\n")
+        f.write("\nСтатистические данные:\n")
         f.write(str(analytics["describe"]) + "\n")
 
-        f.write("Размер датафрейма:\n")
+        f.write("\nРазмер датафрейма:\n")
         f.write(f'Количество строк - {analytics["shape"][0]}\nКоличество столбцов - {analytics["shape"][1]}\n')
 
 def main(dataset_name, output_file):
