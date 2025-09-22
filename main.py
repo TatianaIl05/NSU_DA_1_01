@@ -6,11 +6,13 @@ import sys
 def load_dataset():
     """
     Function reads the dataset 
+    Returns:
+        A loaded data frame
     """
     iris = load_iris()
     df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
     df['target'] = iris.target
-    
+
     return df
 
 
