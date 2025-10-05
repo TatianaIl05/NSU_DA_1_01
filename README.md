@@ -3,7 +3,7 @@
 Как запустить:
 1. Клонируйте репозиторий:
    ```
-   git clone https://github.com/TatianaIl05/NSU_DA_1_01_Ilinykh.git
+   git clone https://github.com/TatianaIl05/NSU_DA_1_01.git
    ```
 2. Перейдите в  директорию проекта:
    ```
